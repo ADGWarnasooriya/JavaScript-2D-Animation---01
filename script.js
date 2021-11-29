@@ -8,3 +8,7 @@ function m() {
     var a0 = document.getElementById("a0");
     a0.src = "./png/Attack__00" + n1 + ".png";
 }
+
+function n() {
+    setInterval(m, 200);
+}
