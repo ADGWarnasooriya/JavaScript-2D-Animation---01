@@ -1,3 +1,3 @@
 function m() {
-    alert("ok");
+    var a0 = document.getElementById("a0");
 }
