@@ -1,1 +1,3 @@
-
+function m() {
+    alert("ok");
+}
