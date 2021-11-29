@@ -1,4 +1,5 @@
 var n1 = 0;
+var p = 0;
 
 function m() {
     n1 = n1 + 1;
@@ -10,5 +11,9 @@ function m() {
 }
 
 function n() {
-    setInterval(m, 200);
+    p = setInterval(m, 200);
+}
+
+function p() {
+    clearInterval(p);
 }
