@@ -28,7 +28,7 @@ function p() {
 
     clearInterval(p1);
     var a0 = document.getElementById("a0");
-    a0.src = "./png/Attack__000.png";
     attackImageNumber = 1;
+    a0.src = "./png/Attack__000.png";
     s = false;
 }
