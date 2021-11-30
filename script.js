@@ -15,7 +15,7 @@ function attackAnimation() {
     a0.style.marginLeft = attackAnimationMarginLeft + "px";
 }
 
-function n() {
+function attackAnimationStart() {
 
     if (attackAnimationStatus == false) {
         attackAnimationId = setInterval(attackAnimation, 200);
