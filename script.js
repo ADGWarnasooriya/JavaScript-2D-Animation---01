@@ -10,9 +10,9 @@ function attackAnimation() {
     if (attackImageNumber == 10) {
         attackImageNumber = 0;
     }
-    var a0 = document.getElementById("a0");
-    a0.src = "./png/Attack__00" + attackImageNumber + ".png";
-    a0.style.marginLeft = attackAnimationMarginLeft + "px";
+    var ninjaImageTag = document.getElementById("a0");
+    ninjaImageTag.src = "./png/Attack__00" + attackImageNumber + ".png";
+    ninjaImageTag.style.marginLeft = attackAnimationMarginLeft + "px";
 }
 
 function attackAnimationStart() {
@@ -27,8 +27,8 @@ function attackAnimationStart() {
 function attackAnimationStop() {
 
     clearInterval(attackAnimationId);
-    var a0 = document.getElementById("a0");
+    var ninjaImageTag = document.getElementById("a0");
     attackImageNumber = 1;
-    a0.src = "./png/Attack__000.png";
+    ninjaImageTag.src = "./png/Attack__000.png";
     attackAnimationStatus = false;
 }
