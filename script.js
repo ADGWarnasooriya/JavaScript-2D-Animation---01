@@ -24,7 +24,7 @@ function attackAnimationStart() {
 
 }
 
-function p() {
+function attackAnimationStop() {
 
     clearInterval(attackAnimationId);
     var a0 = document.getElementById("a0");
