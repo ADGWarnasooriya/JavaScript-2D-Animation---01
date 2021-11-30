@@ -1,17 +1,17 @@
-var n1 = 0;
+var attackImageNumber = 0;
 var p1 = 0;
 var mL1 = 0;
 var s = false;
 
 
 function m() {
-    n1 = n1 + 1;
+    attackImageNumber = attackImageNumber + 1;
     mL1 = mL1 + 10;
-    if (n1 == 10) {
-        n1 = 0;
+    if (attackImageNumber == 10) {
+        attackImageNumber = 0;
     }
     var a0 = document.getElementById("a0");
-    a0.src = "./png/Attack__00" + n1 + ".png";
+    a0.src = "./png/Attack__00" + attackImageNumber + ".png";
     a0.style.marginLeft = mL1 + "px";
 }
 
@@ -29,6 +29,6 @@ function p() {
     clearInterval(p1);
     var a0 = document.getElementById("a0");
     a0.src = "./png/Attack__000.png";
-    n1 = 1;
+    attackImageNumber = 1;
     s = false;
 }
