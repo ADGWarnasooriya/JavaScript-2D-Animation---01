@@ -16,7 +16,12 @@ function m() {
 }
 
 function n() {
-    p1 = setInterval(m, 200);
+
+    if (s == false) {
+        p1 = setInterval(m, 200);
+        s = true;
+    }
+
 }
 
 function p() {
