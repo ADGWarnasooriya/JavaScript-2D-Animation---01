@@ -1,6 +1,7 @@
 var n1 = 0;
 var p1 = 0;
 var mL1 = 0;
+var s = false;
 
 
 function m() {
