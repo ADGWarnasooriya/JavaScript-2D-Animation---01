@@ -1,7 +1,7 @@
 var attackImageNumber = 0;
 var attackAnimationId = 0;
 var attackAnimationMarginLeft = 0;
-var s = false;
+var attackAnimationStatus = false;
 
 
 function m() {
@@ -17,9 +17,9 @@ function m() {
 
 function n() {
 
-    if (s == false) {
+    if (attackAnimationStatus == false) {
         attackAnimationId = setInterval(m, 200);
-        s = true;
+        attackAnimationStatus = true;
     }
 
 }
@@ -30,5 +30,5 @@ function p() {
     var a0 = document.getElementById("a0");
     attackImageNumber = 1;
     a0.src = "./png/Attack__000.png";
-    s = false;
+    attackAnimationStatus = false;
 }
