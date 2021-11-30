@@ -5,6 +5,7 @@ var mL1 = 0;
 
 function m() {
     n1 = n1 + 1;
+    mL1 = mL1 + 10;
     if (n1 == 10) {
         n1 = 0;
     }
