@@ -4,7 +4,7 @@ var attackAnimationMarginLeft = 0;
 var attackAnimationStatus = false;
 
 
-function m() {
+function attackAnimation() {
     attackImageNumber = attackImageNumber + 1;
     attackAnimationMarginLeft = attackAnimationMarginLeft + 10;
     if (attackImageNumber == 10) {
@@ -18,7 +18,7 @@ function m() {
 function n() {
 
     if (attackAnimationStatus == false) {
-        attackAnimationId = setInterval(m, 200);
+        attackAnimationId = setInterval(attackAnimation, 200);
         attackAnimationStatus = true;
     }
 
