@@ -30,4 +30,5 @@ function p() {
     var a0 = document.getElementById("a0");
     a0.src = "./png/Attack__000.png";
     n1 = 1;
+    s = false;
 }
