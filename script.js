@@ -11,7 +11,7 @@ function m() {
     }
     var a0 = document.getElementById("a0");
     a0.src = "./png/Attack__00" + n1 + ".png";
-    a0.style.marginLeft = "100px";
+    a0.style.marginLeft = mL1 + "px";
 }
 
 function n() {
