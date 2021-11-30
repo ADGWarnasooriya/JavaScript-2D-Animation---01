@@ -1,5 +1,5 @@
 var attackImageNumber = 0;
-var p1 = 0;
+var attackAnimationId = 0;
 var attackAnimationMarginLeft = 0;
 var s = false;
 
@@ -18,7 +18,7 @@ function m() {
 function n() {
 
     if (s == false) {
-        p1 = setInterval(m, 200);
+        attackAnimationId = setInterval(m, 200);
         s = true;
     }
 
@@ -26,7 +26,7 @@ function n() {
 
 function p() {
 
-    clearInterval(p1);
+    clearInterval(attackAnimationId);
     var a0 = document.getElementById("a0");
     attackImageNumber = 1;
     a0.src = "./png/Attack__000.png";
